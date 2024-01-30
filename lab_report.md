@@ -69,7 +69,7 @@ class ChatServer {
 The methods that are called are ```handle()```,  ```start()```, ```handleRequest()```, and ```main()```.
 
 ## What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-## class ```StringHandler```
+# class ```StringHandler```
 
 ##### Class Fields:
 
@@ -93,7 +93,7 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ```path``` = txt file when compiled (chats.txt)
 
-## class ```ServerHttpHandler```
+# class ```ServerHttpHandler```
 
 #### Class Fields: ```URLHandler handler```
     
@@ -101,7 +101,7 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ##### Argument: ```URLHandler handler``` - initializes handler field
 
-## class ```Server```
+# class ```Server```
 ## Method ```start()```
 
 #### Arguments: ```int port```, ```URLHandler handler```
@@ -110,7 +110,7 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ```HttpServer server``` - created with port
 
-## class ```ChatServer```
+# class ```ChatServer```
 ## Method ```main()```
 
 #### Method Fields: 
