@@ -65,23 +65,23 @@ class ChatServer {
 ## add-message example 2
 ![IMAGE](ex2.png)
 
-### Which methods in your code are called?
+## Which methods in your code are called?
 The methods that are called are ```handle()```,  ```start()```, ```handleRequest()```, and ```main()```.
 
-### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-#### class ```StringHandler```
+## What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+### class ```StringHandler```
 
-Class Fields:
+##### Class Fields:
 
 ```List<String> chat_log``` = list of ```newChats```
 
 ```String path``` = all lines of chats.txt
 
-##### ```handleRequest(URI url)```
+#### ```handleRequest(URI url)```
 
 Argument: ```URI url = exchange.getRequestURI()```
 
-Method Fields: 
+#### Method Fields: 
 
 ```query``` = query of server url 
 
@@ -93,27 +93,27 @@ Method Fields:
 
 ```path``` = txt file when compiled (chats.txt)
 
-#### class ```ServerHttpHandler```
+### class ```ServerHttpHandler```
 
- Class Fields: ```URLHandler handler```
+####Class Fields: ```URLHandler handler```
     
-##### ``handle()```
+#### ``handle()```
 
-Argument: ```URLHandler handler``` - initializes handler field
+##### Argument: ```URLHandler handler``` - initializes handler field
 
-#### class ```Server```
-##### ```start()```
+### class ```Server```
+### ```start()```
 
-Arguments: ```int port```, ```URLHandler handler```
+#### Arguments: ```int port```, ```URLHandler handler```
 
-Method Fields: 
+#### Method Fields: 
 
 ```HttpServer server``` - created with port
 
-#### class ```ChatServer```
-##### ```main()```
+### class ```ChatServer```
+### ```main()```
 
-Fields: 
+#### Method Fields: 
 ```int port = args[0]``` - provided when compiled
 
 ### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
