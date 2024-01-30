@@ -62,6 +62,8 @@ class ChatServer {
 ## add-message example 1
 ![IMAGE](ex1.png)
 
+
+
 ## add-message example 2
 ![IMAGE](ex2.png)
 
@@ -69,51 +71,12 @@ class ChatServer {
 The methods that are called are ```handle()```,  ```start()```, ```handleRequest()```, and ```main()```.
 
 ## What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-# class ```StringHandler```
 
-##### Class Fields:
 
-```List<String> chat_log``` = list of ```newChats```
+## How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-```String path``` = all lines of chats.txt
+```message``` and ```user``` variable changes with text put after message= and user= in query of webiste
 
-### Method ```handleRequest(URI url)```
+![IMAGE](login.png)
 
-#### Argument: ```URI url = exchange.getRequestURI()```
-
-#### Method Fields: 
-
-```query``` = query of server url 
-
-```user``` = string of username from query "jpolitz" and "lawrence"
-
-```message``` = string of message from query - "Hello" and "pls give me 3 points"
-
-```new chat``` = user: message
-
-```path``` = txt file when compiled (chats.txt)
-
-# class ```ServerHttpHandler```
-
-#### Class Fields: ```URLHandler handler```
-    
-## Method ``handle()```
-
-##### Argument: ```URLHandler handler``` - initializes handler field
-
-# class ```Server```
-## Method ```start()```
-
-#### Arguments: ```int port```, ```URLHandler handler```
-
-#### Method Fields: 
-
-```HttpServer server``` - created with port
-
-# class ```ChatServer```
-## Method ```main()```
-
-#### Method Fields: 
-```int port = args[0]``` - provided when compiled
-
-### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+![IMAGE](abspath.png)
