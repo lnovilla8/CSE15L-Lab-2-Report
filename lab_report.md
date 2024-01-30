@@ -77,9 +77,9 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ```String path``` = all lines of chats.txt
 
-#### ```handleRequest(URI url)```
+#### Method ```handleRequest(URI url)```
 
-Argument: ```URI url = exchange.getRequestURI()```
+#### Argument: ```URI url = exchange.getRequestURI()```
 
 #### Method Fields: 
 
@@ -95,14 +95,14 @@ Argument: ```URI url = exchange.getRequestURI()```
 
 ### class ```ServerHttpHandler```
 
-####Class Fields: ```URLHandler handler```
+#### Class Fields: ```URLHandler handler```
     
-#### ``handle()```
+### Method ``handle()```
 
 ##### Argument: ```URLHandler handler``` - initializes handler field
 
 ### class ```Server```
-### ```start()```
+### Method ```start()```
 
 #### Arguments: ```int port```, ```URLHandler handler```
 
@@ -111,7 +111,7 @@ Argument: ```URI url = exchange.getRequestURI()```
 ```HttpServer server``` - created with port
 
 ### class ```ChatServer```
-### ```main()```
+### Method ```main()```
 
 #### Method Fields: 
 ```int port = args[0]``` - provided when compiled
