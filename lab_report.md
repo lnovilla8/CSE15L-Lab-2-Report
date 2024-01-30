@@ -65,3 +65,20 @@ class ChatServer {
 ## add-message example 2
 ![IMAGE](ex2.png)
 
+### Which methods in your code are called?
+The methods that are called are ```handle()```,  ```start()```, ```handleRequest()```, and ```main()```.
+
+### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+## class ```StringHandler```
+# ```handleRequest()```
+
+## class ```ServerHttpHandler```
+# ```handle()```
+
+## class ```Server```
+# ```start()```
+
+## class ```ChatServer```
+# ```main()```
+
+### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
