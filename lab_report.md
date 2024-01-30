@@ -72,6 +72,7 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 #### class ```StringHandler```
 
 ```List<String> chat_log``` = list of ```newChats```
+
 ```String path``` = all lines of chats.txt
 
 ##### ```handleRequest(URI url)```
@@ -81,9 +82,13 @@ Argument: ```URI url = exchange.getRequestURI()```
 Fields: 
 
 ```query``` = query of server url 
+
 ```user``` = string of username from query "jpolitz" and "lawrence"
+
 ```message``` = string of message from query - "Hello" and "pls give me 3 points"
-```new chat``` = user: message - 
+
+```new chat``` = user: message
+
 ```path``` = txt file when compiled (chats.txt)
 
 #### class ```ServerHttpHandler```
