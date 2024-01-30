@@ -69,16 +69,44 @@ class ChatServer {
 The methods that are called are ```handle()```,  ```start()```, ```handleRequest()```, and ```main()```.
 
 ### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-## class ```StringHandler```
-# ```handleRequest()```
+#### class ```StringHandler```
 
-## class ```ServerHttpHandler```
-# ```handle()```
+```List<String> chat_log``` = list of ```newChats```
+```String path``` = all lines of chats.txt
 
-## class ```Server```
-# ```start()```
+##### ```handleRequest(URI url)```
 
-## class ```ChatServer```
-# ```main()```
+Argument: ```URI url = exchange.getRequestURI()```
+
+Fields: 
+
+```query``` = query of server url 
+```user``` = string of username from query "jpolitz" and "lawrence"
+```message``` = string of message from query - "Hello" and "pls give me 3 points"
+```new chat``` = user: message - 
+```path``` = txt file when compiled (chats.txt)
+
+#### class ```ServerHttpHandler```
+
+```URLHandler handler```
+    
+##### ```handle()```
+
+Argument: ```URLHandler handler``` - initializes handler field
+
+#### class ```Server```
+##### ```start()```
+
+Arguments: ```int port```, ```URLHandler handler```
+
+Fields: 
+
+```HttpServer server``` - created with port
+
+#### class ```ChatServer```
+##### ```main()```
+
+Fields: 
+```int port = args[0]``` - provided when compiled
 
 ### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
