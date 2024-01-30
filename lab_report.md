@@ -69,7 +69,7 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 #### class ```StringHandler```
 
-```List<String> chat_log``` = list of ```newChats```
+```List<String> chat_log``` = list of ```newChats``` - lines added to chat log
 ```String path``` = all lines of chats.txt
 
 ##### ```handleRequest(URI url)```
@@ -118,7 +118,7 @@ The list ```chat_logs``` is modified because the newChat's are added when the qu
 The methods that are called are ```handleRequest()```.
 
 ## What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-The relative argument to ```the handleRequst()``` method is the url of the website. The fields message, user, and newChat are changed to the values in the query.
+The relative argument to ```the handleRequest()``` method is the url of the website. The fields message, user, and newChat are changed to the values in the query.
 
 ## How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
