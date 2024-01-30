@@ -61,6 +61,7 @@ class ChatServer {
 ```
 
 ```Server.java```
+```
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -111,6 +112,8 @@ public class Server {
         System.out.println("Server started!");
     }
 }
+```
+
 ## add-message example 1
 ![IMAGE](ex1.png)
 
