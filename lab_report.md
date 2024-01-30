@@ -67,7 +67,6 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ## What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 #### class ```StringHandler```
 
 ```List<String> chat_log``` = list of ```newChats```
@@ -130,4 +129,4 @@ The list ```chat_logs``` is modified because the newChat's are added when the qu
 ![IMAGE](abspaths.png)
 
 Takeaway:
-From week 2, I learned how to create a server where I am able to change what is printed out using the values in the query. Additionally, I learned how to use commands such as cd, ls, man, and pwd to navigate through my files.
+From week 2, I learned how to create a server where I am able to change what is printed out using the values in the query. Additionally, I learned how to use commands such as cd, ls, man, and pwd to navigate and manipulate my files.
