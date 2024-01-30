@@ -69,7 +69,7 @@ class ChatServer {
 The methods that are called are ```handle()```,  ```start()```, ```handleRequest()```, and ```main()```.
 
 ## What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-### class ```StringHandler```
+## class ```StringHandler```
 
 ##### Class Fields:
 
@@ -77,7 +77,7 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ```String path``` = all lines of chats.txt
 
-#### Method ```handleRequest(URI url)```
+### Method ```handleRequest(URI url)```
 
 #### Argument: ```URI url = exchange.getRequestURI()```
 
@@ -93,16 +93,16 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ```path``` = txt file when compiled (chats.txt)
 
-### class ```ServerHttpHandler```
+## class ```ServerHttpHandler```
 
 #### Class Fields: ```URLHandler handler```
     
-### Method ``handle()```
+## Method ``handle()```
 
 ##### Argument: ```URLHandler handler``` - initializes handler field
 
-### class ```Server```
-### Method ```start()```
+## class ```Server```
+## Method ```start()```
 
 #### Arguments: ```int port```, ```URLHandler handler```
 
@@ -110,8 +110,8 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 
 ```HttpServer server``` - created with port
 
-### class ```ChatServer```
-### Method ```main()```
+## class ```ChatServer```
+## Method ```main()```
 
 #### Method Fields: 
 ```int port = args[0]``` - provided when compiled
