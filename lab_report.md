@@ -71,15 +71,17 @@ The methods that are called are ```handle()```,  ```start()```, ```handleRequest
 ### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 #### class ```StringHandler```
 
+### Class Fields:
+
 ```List<String> chat_log``` = list of ```newChats```
 
 ```String path``` = all lines of chats.txt
 
 ##### ```handleRequest(URI url)```
 
-Argument: ```URI url = exchange.getRequestURI()```
+###### Argument: ```URI url = exchange.getRequestURI()```
 
-Fields: 
+###### Method Fields: 
 
 ```query``` = query of server url 
 
@@ -93,18 +95,18 @@ Fields:
 
 #### class ```ServerHttpHandler```
 
-```URLHandler handler```
+### Class Fields: ```URLHandler handler```
     
 ##### ```handle()```
 
-Argument: ```URLHandler handler``` - initializes handler field
+## Argument: ```URLHandler handler``` - initializes handler field
 
 #### class ```Server```
 ##### ```start()```
 
-Arguments: ```int port```, ```URLHandler handler```
+## Arguments: ```int port```, ```URLHandler handler```
 
-Fields: 
+## Method Fields: 
 
 ```HttpServer server``` - created with port
 
