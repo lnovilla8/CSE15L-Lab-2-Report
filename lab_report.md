@@ -1,5 +1,5 @@
 # CSE 15L Lab Report 2
-**ChatServer.java**
+```ChatServer.java```
 ```
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -60,7 +60,7 @@ class ChatServer {
 }
 ```
 
-**Server.java**
+```Server.java```
 ```
 import java.io.IOException;
 import java.io.OutputStream;
