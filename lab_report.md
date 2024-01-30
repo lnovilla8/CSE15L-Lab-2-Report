@@ -59,7 +59,9 @@ class ChatServer {
   }
 }
 ```
-![IMAGE](Screenshot 2024-01-29 at 10.48.54 PM.png)
+## add-message example 1
+![IMAGE](ex1.png)
 
-![IMAGE](Screenshot 2024-01-29 at 10.50.52 PM.png)
+## add-message example 2
+![IMAGE](ex2.png)
 
