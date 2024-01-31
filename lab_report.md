@@ -183,6 +183,8 @@ The list ```chat_logs``` is modified because the newChat's are added when the qu
 
 ![IMAGE](login.png)
 
+![IMAGE](meow.png)
+
 ![IMAGE](abspaths.png)
 
 Takeaway:
