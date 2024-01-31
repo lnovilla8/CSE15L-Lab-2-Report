@@ -185,7 +185,7 @@ The list ```chat_logs``` is modified because the newChat's are added when the qu
 
 ![IMAGE](meow.png)
 
-![IMAGE](abspaths.png)
+![IMAGE](priv.png)
 
 Takeaway:
 From week 2, I learned how to create a server where I am able to change what is printed out using the values in the query. Additionally, I learned how to use commands such as cd, ls, man, and pwd to navigate and manipulate my files.
