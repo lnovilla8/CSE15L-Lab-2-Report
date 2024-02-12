@@ -181,11 +181,11 @@ The relative argument to ```the handleRequest()``` method is the url of the webs
 
 The list ```chat_logs``` is modified because the newChat's are added when the query of the website is changed.
 
+## Login without password
 ![IMAGE](login.png)
 
-![IMAGE](meow.png)
-
-![IMAGE](priv.png)
+## Public and Private Key
+![IMAGE](pubandprivkey.png)
 
 Takeaway:
 From week 2, I learned how to create a server where I am able to change what is printed out using the values in the query. Additionally, I learned how to use commands such as cd, ls, man, and pwd to navigate and manipulate my files.
